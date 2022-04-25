@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android           = "http://schemas.android.com/apk/res/android"
+    xmlns:app               = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools             = "http://schemas.android.com/tools"
+    android:layout_width    = "match_parent"
+    android:layout_height   = "match_parent"
+    android:orientation     = "vertical"
+    tools:context           = ".profile.ProfileActivity">
+
+    <TextView
+        android:layout_width        = "wrap_content"
+        android:layout_height       = "wrap_content"
+        android:layout_gravity      = "center_horizontal"
+        android:layout_marginTop    = "10dp"
+        android:text                = "Profil Mahasiswa"
+        android:textStyle           = "bold"
+        android:textSize            = "30sp"
+        android:textColor           = "@color/black"/>
+    <TextView
+        android:layout_width        = "wrap_content"
+        android:layout_height       = "wrap_content"
+        android:layout_gravity      = "center_horizontal"
+        android:text                = "Universitas AMIKOM Yogyakarta"
+        android:textColor           = "@color/black"
+        android:textSize            = "20sp"
+        android:textStyle           = "bold"/>
+    <ImageView
+        android:layout_width        = "100dp"
+        android:layout_height       = "100dp"
+        android:layout_marginTop    = "10dp"
+        android:layout_marginBottom = "10dp"
+        android:layout_gravity      = "center_horizontal"
+        android:src                 = "@drawable/amikom"/>
+
+    <ScrollView
+        android:layout_width        = "match_parent"
+        android:layout_height       = "wrap_content">
+        <LinearLayout
+            android:layout_width        = "match_parent"
+            android:layout_height       = "wrap_content"
+            android:orientation         = "vertical">
+
+            <!-- NAMA LENGKAP -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "20dp"
+                android:drawableLeft        = "@drawable/ic_account_circle_24"
+                android:text                = "  Nama Lengkap"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvnama"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- NOMOR MAHASISWA -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_account_balance_24"
+                android:text                = "  Nomor Mahasiswa"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvnpm"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- EMAIL -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_email_24"
+                android:text                = "  Email"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvemail"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- NOMOR TELEPON -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_phone_24"
+                android:text                = "  Nomor Telepon"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvhp"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- JENIS KELAMIN -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_attribution_24"
+                android:text                = "  Jenis Kelamin"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvjk"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- PROGRAM STUDI -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_account_balance_24"
+                android:text                = "  Program Studi"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvprodi"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- ORGANISASI -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_account_balance_24"
+                android:text                = "  Organisasi"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvorg"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+            <!-- STATUS MAHASISWA -->
+            <TextView
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "30dp"
+                android:layout_marginTop    = "10dp"
+                android:drawableLeft        = "@drawable/ic_account_circle_24"
+                android:text                = "  Status Mahasiswa"
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+            <TextView
+                android:id                  = "@+id/tvstatus"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_marginStart  = "64dp"
+                android:layout_marginTop    = "10dp"
+                android:text                = ""
+                android:textColor           = "@color/black"
+                android:textSize            = "20sp"
+                android:textStyle           = "bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
