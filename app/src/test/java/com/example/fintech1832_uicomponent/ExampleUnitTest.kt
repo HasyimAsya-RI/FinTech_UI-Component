@@ -1,4 +1,4 @@
-package com.example.fintech_4uicomponent
+package com.example.fintech1832_uicomponent
 
 import org.junit.Test
 

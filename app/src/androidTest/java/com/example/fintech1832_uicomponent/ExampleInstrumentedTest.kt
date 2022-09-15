@@ -1,4 +1,4 @@
-package com.example.fintech_4uicomponent
+package com.example.fintech1832_uicomponent
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

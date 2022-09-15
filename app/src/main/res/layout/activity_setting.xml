@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version = "1.0" encoding = "utf-8"?>
 <LinearLayout
     xmlns:android           = "http://schemas.android.com/apk/res/android"
     xmlns:app               = "http://schemas.android.com/apk/res-auto"
@@ -16,15 +16,15 @@
         android:text                = "Pengaturan Profil"
         android:textColor           = "@color/black"
         android:textSize            = "30sp"
-        android:textStyle           = "bold"/>
+        android:textStyle           = "bold" />
 
     <ScrollView
-        android:layout_width    = "match_parent"
-        android:layout_height   = "wrap_content">
+        android:layout_width        = "match_parent"
+        android:layout_height       = "wrap_content">
         <LinearLayout
-            android:layout_width    = "match_parent"
-            android:layout_height   = "wrap_content"
-            android:orientation     = "vertical">
+            android:layout_width        = "match_parent"
+            android:layout_height       = "wrap_content"
+            android:orientation         = "vertical">
 
             <!-- NAMA LENGKAP -->
             <TextView
@@ -36,7 +36,7 @@
                 android:text                = "  Nama Lengkap"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <EditText
                 android:id                  = "@+id/etnamalkp"
                 android:layout_width        = "350dp"
@@ -48,7 +48,7 @@
                 android:paddingStart        = "20dp"
                 android:textColor           = "@color/black"
                 android:textColorHint       = "@color/black"
-                android:textSize            = "20sp"/>
+                android:textSize            = "20sp" />
 
             <!-- NOMOR MAHASISWA -->
             <TextView
@@ -60,7 +60,7 @@
                 android:text                = "  Nomor Mahasiswa"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <EditText
                 android:id                  = "@+id/etnpm"
                 android:layout_width        = "350dp"
@@ -72,7 +72,7 @@
                 android:paddingStart        = "20dp"
                 android:textColor           = "@color/black"
                 android:textColorHint       = "@color/black"
-                android:textSize            = "20sp"/>
+                android:textSize            = "20sp" />
 
             <!-- EMAIL -->
             <TextView
@@ -84,7 +84,7 @@
                 android:text                = "  Email"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <EditText
                 android:id                  = "@+id/etemail"
                 android:layout_width        = "350dp"
@@ -97,7 +97,7 @@
                 android:inputType           = "textEmailAddress"
                 android:textColor           = "@color/black"
                 android:textColorHint       = "@color/black"
-                android:textSize            = "20sp"/>
+                android:textSize            = "20sp" />
 
             <!-- NOMOR TELEPON -->
             <TextView
@@ -109,7 +109,7 @@
                 android:text                = "  Nomor Telepon"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <EditText
                 android:id                  = "@+id/ethp"
                 android:layout_width        = "350dp"
@@ -122,7 +122,7 @@
                 android:textColor           = "@color/black"
                 android:textColorHint       = "@color/black"
                 android:inputType           = "phone"
-                android:textSize            = "20sp"/>
+                android:textSize            = "20sp" />
 
             <!-- KATA SANDI -->
             <TextView
@@ -134,7 +134,7 @@
                 android:text                = "  Kata Sandi"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width        = "wrap_content"
                 android:layout_height       = "wrap_content"
@@ -150,8 +150,7 @@
                     android:textSize            = "20sp"
                     android:hint                = "********"
                     android:inputType           = "textPassword"
-                    android:textColorHint       = "@color/black"
-                    />
+                    android:textColorHint       = "@color/black" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- JENIS KELAMIN -->
@@ -164,7 +163,7 @@
                 android:text                = "  Jenis Kelamin"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <RadioGroup
                 android:id                  = "@+id/rgjk"
                 android:layout_width        = "wrap_content"
@@ -172,23 +171,21 @@
                 android:layout_marginStart  = "30dp"
                 android:layout_marginTop    = "10dp">
                 <RadioButton
-                    android:id              = "@+id/rblk"
-                    android:layout_width    = "wrap_content"
-                    android:layout_height   = "wrap_content"
-                    android:text            = "Laki-laki"
-                    android:textColor       = "@color/black"
-                    android:textSize        = "20sp"
-                    android:textStyle       = "bold"
-                    />
+                    android:id                  = "@+id/rblk"
+                    android:layout_width        = "wrap_content"
+                    android:layout_height       = "wrap_content"
+                    android:text                = "Laki-laki"
+                    android:textColor           = "@color/black"
+                    android:textSize            = "20sp"
+                    android:textStyle           = "bold" />
                 <RadioButton
-                    android:id              = "@+id/rbpr"
-                    android:layout_width    = "wrap_content"
-                    android:layout_height   = "wrap_content"
-                    android:text            = "Perempuan"
-                    android:textColor       = "@color/black"
-                    android:textSize        = "20sp"
-                    android:textStyle       = "bold"
-                    />
+                    android:id                  = "@+id/rbpr"
+                    android:layout_width        = "wrap_content"
+                    android:layout_height       = "wrap_content"
+                    android:text                = "Perempuan"
+                    android:textColor           = "@color/black"
+                    android:textSize            = "20sp"
+                    android:textStyle           = "bold" />
             </RadioGroup>
 
             <!-- PROGRAM STUDI -->
@@ -201,7 +198,7 @@
                 android:text                = "  Program Studi"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <Spinner
                 android:id                  = "@+id/spiner"
                 android:layout_width        = "350dp"
@@ -209,7 +206,7 @@
                 android:layout_gravity      = "center_horizontal"
                 android:layout_marginTop    = "10dp"
                 android:background          = "@drawable/bgedittext"
-                android:entries             = "@array/Prodi"/>
+                android:entries             = "@array/Prodi" />
 
             <!-- ORGANISASI -->
             <TextView
@@ -221,7 +218,7 @@
                 android:text                = "  Organisasi"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <CheckBox
                 android:id                  = "@+id/amcc"
                 android:layout_width        = "wrap_content"
@@ -231,7 +228,7 @@
                 android:text                = "AMCC"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <CheckBox
                 android:id                  = "@+id/himssi"
                 android:layout_width        = "wrap_content"
@@ -241,7 +238,7 @@
                 android:text                = "HIMSSI"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <CheckBox
                 android:id                  = "@+id/bem"
                 android:layout_width        = "wrap_content"
@@ -251,7 +248,7 @@
                 android:text                = "BEM AMIKOM"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
 
             <!-- STATUS MAHASISWA -->
             <TextView
@@ -262,7 +259,7 @@
                 android:text                = "Status Mahasiswa"
                 android:textColor           = "@color/black"
                 android:textSize            = "20sp"
-                android:textStyle           = "bold"/>
+                android:textStyle           = "bold" />
             <ToggleButton
                 android:id                  = "@+id/tooglebtn"
                 android:layout_width        = "wrap_content"
@@ -270,27 +267,27 @@
                 android:layout_marginTop    = "10dp"
                 android:layout_gravity      = "center"
                 android:textOff             = "TIDAK AKTIF"
-                android:textOn              = "AKTIF"/>
+                android:textOn              = "AKTIF" />
             <Switch
                 android:id                  = "@+id/toggleswitch"
                 android:layout_width        = "wrap_content"
                 android:layout_height       = "wrap_content"
                 android:layout_marginTop    = "10dp"
                 android:layout_gravity      = "center"
-                tools:ignore                = "UseSwitchCompatOrMaterialXml"/>
+                tools:ignore                = "UseSwitchCompatOrMaterialXml" />
 
             <!-- PENILAIAN -->
             <SeekBar
                 android:layout_width        = "match_parent"
                 android:layout_height       = "wrap_content"
                 android:layout_gravity      = "center"
-                android:layout_margin       = "20dp"/>
+                android:layout_margin       = "20dp" />
             <RatingBar
                 android:layout_width        = "wrap_content"
                 android:layout_height       = "wrap_content"
                 android:layout_gravity      = "center"
                 android:numStars            = "5"
-                android:stepSize            = "0.5"/>
+                android:stepSize            = "0.5" />
 
             <Button
                 android:id                  = "@+id/btsimpan"
@@ -302,7 +299,7 @@
                 android:backgroundTint      = "@color/black"
                 android:text                = "SIMPAN"
                 android:textColor           = "@color/white"
-                android:textSize            = "20sp"/>
+                android:textSize            = "20sp" />
 
         </LinearLayout>
     </ScrollView>

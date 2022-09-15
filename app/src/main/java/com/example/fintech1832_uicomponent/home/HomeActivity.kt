@@ -1,9 +1,9 @@
-package com.example.fintech_4uicomponent.home
+package com.example.fintech1832_uicomponent.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.fintech_4uicomponent.R
+import com.example.fintech1832_uicomponent.R
 
 class HomeActivity : AppCompatActivity() {
 

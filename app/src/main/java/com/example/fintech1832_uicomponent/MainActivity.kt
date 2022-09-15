@@ -1,16 +1,13 @@
-package com.example.fintech_4uicomponent
+package com.example.fintech1832_uicomponent
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.example.fintech_4uicomponent.home.HomeActivity
-import com.example.fintech_4uicomponent.home.HomeFragment
-import com.example.fintech_4uicomponent.profile.ProfileActivity
-import com.example.fintech_4uicomponent.profile.ProfileFragment
-import com.example.fintech_4uicomponent.setting.SettingActivity
-import com.example.fintech_4uicomponent.setting.SettingFragment
+import com.example.fintech1832_uicomponent.home.HomeFragment
+import com.example.fintech1832_uicomponent.profile.ProfileActivity
+import com.example.fintech1832_uicomponent.setting.SettingActivity
 
 class MainActivity : AppCompatActivity() {
 

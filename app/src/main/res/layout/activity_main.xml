@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version = "1.0" encoding = "utf-8"?>
 <LinearLayout
     xmlns:android           = "http://schemas.android.com/apk/res/android"
     xmlns:app               = "http://schemas.android.com/apk/res-auto"
@@ -9,40 +9,40 @@
     tools:context           = ".MainActivity">
 
     <HorizontalScrollView
-        android:layout_width    = "match_parent"
-        android:layout_height   = "wrap_content">
+        android:layout_width        = "match_parent"
+        android:layout_height       = "wrap_content">
 
         <LinearLayout
-            android:layout_width    = "match_parent"
-            android:layout_height   = "wrap_content"
-            android:orientation     = "horizontal">
+            android:layout_width        = "match_parent"
+            android:layout_height       = "wrap_content"
+            android:orientation         = "horizontal">
             <Button
-                android:id              = "@+id/btn_home"
-                android:layout_width    = "wrap_content"
-                android:layout_height   = "wrap_content"
-                android:layout_margin   = "4dp"
-                android:text            = "BERANDA"/>
+                android:id                  = "@+id/btn_home"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_margin       = "4dp"
+                android:text                = "BERANDA" />
             <Button
-                android:id              = "@+id/btn_profile"
-                android:layout_width    = "wrap_content"
-                android:layout_height   = "wrap_content"
-                android:layout_margin   = "4dp"
-                android:text            = "PROFIL"/>
+                android:id                  = "@+id/btn_profile"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_margin       = "4dp"
+                android:text                = "PROFIL" />
             <Button
-                android:id              = "@+id/btn_setting"
-                android:layout_width    = "wrap_content"
-                android:layout_height   = "wrap_content"
-                android:layout_margin   = "4dp"
-                android:text            = "PENGATURAN"/>
+                android:id                  = "@+id/btn_setting"
+                android:layout_width        = "wrap_content"
+                android:layout_height       = "wrap_content"
+                android:layout_margin       = "4dp"
+                android:text                = "PENGATURAN" />
         </LinearLayout>
 
     </HorizontalScrollView>
 
     <!-- Untuk menampilkan Fragment-nya. -->
     <FrameLayout
-        android:id              = "@+id/container"
-        android:layout_width    = "match_parent"
-        android:layout_height   = "0dp"
-        android:layout_weight   = "1"/>
+        android:id                  = "@+id/container"
+        android:layout_width        = "match_parent"
+        android:layout_height       = "0dp"
+        android:layout_weight       = "1" />
 
 </LinearLayout>
